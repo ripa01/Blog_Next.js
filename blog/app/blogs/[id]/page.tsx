@@ -2,7 +2,7 @@ import { getBlogById } from "@/app/utils/single-blog";
 import { Blog } from "@/app/globals/types";
 
 interface BlogPageProps {
-  params: { id: string };
+  params: { id: number };
 }
 
 export default async function BlogPage({ params }: BlogPageProps) {
